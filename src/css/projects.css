@@ -1,0 +1,17 @@
+.yelpCamp {
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+}
+
+#description {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.tutor {
+    font-size: 20px;
+}
