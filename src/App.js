@@ -51,8 +51,6 @@ function App() {
   return (
     <div>  
       <About />
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <Flame />
       <Contact />
       <Projects />
     </div> 
