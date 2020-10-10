@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.b8fb50b7.chunk.css",
+    "main.js": "/my-website/static/js/main.9fd94a50.chunk.js",
+    "main.js.map": "/my-website/static/js/main.9fd94a50.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.063d9c85.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.063d9c85.js.map",
+    "static/css/2.a0148fe5.chunk.css": "/my-website/static/css/2.a0148fe5.chunk.css",
+    "static/js/2.53f18b9b.chunk.js": "/my-website/static/js/2.53f18b9b.chunk.js",
+    "static/js/2.53f18b9b.chunk.js.map": "/my-website/static/js/2.53f18b9b.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "precache-manifest.572b8010060e930cacd00e29ee396f33.js": "/my-website/precache-manifest.572b8010060e930cacd00e29ee396f33.js",
+    "service-worker.js": "/my-website/service-worker.js",
+    "static/css/2.a0148fe5.chunk.css.map": "/my-website/static/css/2.a0148fe5.chunk.css.map",
+    "static/css/main.b8fb50b7.chunk.css.map": "/my-website/static/css/main.b8fb50b7.chunk.css.map",
+    "static/js/2.53f18b9b.chunk.js.LICENSE.txt": "/my-website/static/js/2.53f18b9b.chunk.js.LICENSE.txt",
+    "static/media/colorGame.gif": "/my-website/static/media/colorGame.c06b8182.gif",
+    "static/media/logo.svg": "/my-website/static/media/logo.fabb0720.svg",
+    "static/media/resume.jpg": "/my-website/static/media/resume.1d79e249.jpg",
+    "static/media/todoReact.gif": "/my-website/static/media/todoReact.a5ff9486.gif",
+    "static/media/tutorial.gif": "/my-website/static/media/tutorial.18d32137.gif",
+    "static/media/wordcount.gif": "/my-website/static/media/wordcount.e1b3aff3.gif",
+    "static/media/yelpCamp.gif": "/my-website/static/media/yelpCamp.6367efe0.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.063d9c85.js",
+    "static/css/2.a0148fe5.chunk.css",
+    "static/js/2.53f18b9b.chunk.js",
+    "static/css/main.b8fb50b7.chunk.css",
+    "static/js/main.9fd94a50.chunk.js"
+  ]
+}
