@@ -1,24 +1,58 @@
-body { 
-    margin: 20px; 
-    text-align: center; 
-} 
-h1 { 
-    color: green; 
-} 
+body {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
 img { 
     float: left;  
     margin: 5px; 
-} 
-p { 
-    text-align: justify; 
-    font-size: 25px; 
 } 
 .wrapper {
     padding: 100px;
     padding-left: 250px;
     padding-right: 250px;
-    z-index: 300;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
 }
 p {
     font-size: 24px;
+    word-spacing: normal;
+    word-break: break-all;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
+
+h3, h1, h2 {
+    color: #fff;
+}
+
+.square {
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+.hey {
+    margin: 0;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.description {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    margin: 0 0 1rem;
+}
+

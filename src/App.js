@@ -1,8 +1,6 @@
 import React from 'react';
-import './App.css';
 import Footer from './Footer'
 import MainContent from './MainContent';
-import Flame from './flame';
 import About from './about';
 import Projects from './projects';
 import Contact from  './contact';
@@ -51,8 +49,6 @@ function App() {
   return (
     <div>  
       <About />
-      <Contact />
-      <Projects />
     </div> 
   );
 }
