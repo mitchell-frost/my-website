@@ -4,7 +4,7 @@ import { Container, Row, Col, Table } from 'reactstrap';
 import './css/about.css';
 import $ from 'jquery';
 import './loader';
-import resume from './resume.jpg';
+import pic from './star.jpg'
 import Typical from 'react-typical'
 
 class About extends React.Component {
@@ -33,12 +33,12 @@ class About extends React.Component {
 					loop={Infinity}
 					wrapper="b"
 					steps={[
-						'a developer 💻', 500,
-						'a blogger ✍🏻', 500,
-						'a dancer 💃', 500,
-						'an actor 🎭 ', 500,
-						'an artist 🎨', 500,	
-						'a freelancer 😀', 500
+						'a developer 💻', 1000,
+						'a blogger ✍🏻', 1000,
+						'a dancer 💃', 1000,
+						'an actor 🎭 ', 1000,
+						'an artist 🎨', 1000,	
+						'a freelancer 😀', 1000
 					]}
 					
 					/>	
@@ -50,9 +50,14 @@ class About extends React.Component {
 					/>	
 					<Typical 
 						steps={[
-								'I am a full-stack developer with experience in Node, Express, React, Flask, and Django. I aim at creating beautiful projects with the maximum utility. [Wait a bit if you wanna know more 😉] ',20000,
-								'When HTML5, CSS and Bootstrap could not meet the dynamic requirements,', 500, 
-								'I went a step further to test my problem solving skills with JavaScript and full-stack development', 500, 
+								'I am a full-stack developer with experience in Node, Express, React, Flask, and Django. ', 10000,
+								'I aim at creating beautiful projects with the maximum utility. [Wait a bit if you wanna know more 😉] ',5000,
+								'When HTML5, CSS and Bootstrap ', 500, 
+								'could not meet the dynamic requirements,', 500, 
+								'I went a step further ', 500, 
+								'to test my problem solving skills with ', 500, 
+								'to test my problem solving skills with JavaScript', 500,
+								'to test my problem solving skills with and full-stack development', 500,  
 								'Now, I am well-versed with Node.js' , 500,
 								'Now, I am well-versed with Express.js' , 500,
 								'Now, I am well-versed with React.js' , 500,

@@ -1,18 +1,17 @@
 body {
-    background-color: black;
     text-align: center;
     align-items: center;
 }
 
-img { 
-    float: left;  
-    margin: 5px; 
-} 
+.fix{
+    position:fixed;
+    bottom:0px;
+}
+
 .wrapper {
     padding: 100px;
     padding-left: 250px;
     padding-right: 250px;
-    background-color: #000;
     height: 100%;
     width: 100%;
 }
@@ -36,7 +35,7 @@ h3, h1, h2 {
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: black;
+    background-color:#001a33;
     position: relative;
     width: 100%;
 }
@@ -55,4 +54,6 @@ h3, h1, h2 {
     margin-inline-end: 40px;
     margin: 0 0 1rem;
 }
+
+/* Very cool dark blue color #001a33 */
 

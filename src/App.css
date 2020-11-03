@@ -1,4 +1,6 @@
-body {
-    background-color: black;
+html, body, #root, .App {
     height: 100%;
-}
+    background-color: #001a33;
+  }
+
+/* Very cool dark blue color #001a33 */
