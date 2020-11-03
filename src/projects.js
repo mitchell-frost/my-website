@@ -17,6 +17,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Typical from 'react-typical'
 
 class Projects extends React.Component {
 	constructor() {
@@ -30,7 +31,12 @@ class Projects extends React.Component {
 		return (
 			<div className="wrapper">
 				<Container>
-				<p style={{fontSize: 10, color: 'grey'}}>Click on the specific project to see code or demo</p>
+				<Typical
+					loop={Infinity}
+					wrapper="p"
+					steps={['Click on the specific project to see code or demo 🌈!', 1000]}					
+				/>
+				{/*<p style={{fontSize: 10, color: 'grey'}}>Click on the specific project to see code or demo</p>*/}
 					<Row className="justify-content-md-center">
 					<Col style={{margin: 20}}>
 							<Flippy // YELP CAMP

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Container, Row, Col, Table } from 'reactstrap';
 import './css/about.css';
+
 import $ from 'jquery';
 import './loader';
 import pic from './star.jpg'
@@ -17,6 +18,9 @@ class About extends React.Component {
 	render() {
 		return (
 			<div class="wrapper">
+				<div class="stars small"></div>
+				<div class="stars medium"></div>
+				<div class="stars large"></div>
 				<div class="square"> 
 					<div class="hey">
 					<Typical
@@ -35,10 +39,10 @@ class About extends React.Component {
 					steps={[
 						'a developer 💻', 1000,
 						'a blogger ✍🏻', 1000,
-						'a dancer 💃', 1000,
+						'a dancer 💃🏻', 1000,
 						'an actor 🎭 ', 1000,
 						'an artist 🎨', 1000,	
-						'a freelancer 😀', 1000
+						'a freelancer 👩🏻‍💻', 1000
 					]}
 					
 					/>	
@@ -51,7 +55,7 @@ class About extends React.Component {
 					<Typical 
 						steps={[
 								'I am a full-stack developer with experience in Node, Express, React, Flask, and Django. ', 10000,
-								'I aim at creating beautiful projects with the maximum utility. [Wait a bit if you wanna know more 😉] ',5000,
+								'I aim at creating beautiful projects with the maximum utility. [Wait a bit if you wanna know more 😉] ',1000,
 								'When HTML5, CSS and Bootstrap ', 500, 
 								'could not meet the dynamic requirements,', 500, 
 								'I went a step further ', 500, 
