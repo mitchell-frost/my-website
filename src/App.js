@@ -4,7 +4,6 @@ import Projects from './projects';
 import Contact from  './contact';
 import Navbar from './navbar';
 import Exp from  './experience';
-import Header from './Header';
 import './loader';
 //import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
