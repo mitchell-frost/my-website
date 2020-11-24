@@ -18,9 +18,6 @@ class About extends React.Component {
 	render() {
 		return (
 			<div class="wrapper">
-				<div class="stars small"></div>
-				<div class="stars medium"></div>
-				<div class="stars large"></div>
 				<div class="square"> 
 					<div class="hey">
 					<Typical
@@ -54,8 +51,8 @@ class About extends React.Component {
 					/>	
 					<Typical 
 						steps={[
-								'I am a full-stack developer with experience in Node, Express, React, Flask, and Django. ', 10000,
-								'I aim at creating beautiful projects with the maximum utility. [Wait a bit if you wanna know more 😉] ',1000,
+								'I am a full-stack developer with experience in Node, Express, React, Flask, and Django. [Wait a bit if you wanna know more 😉]', 10000,
+								'I aim at creating beautiful projects with the maximum utility.  ', 500,
 								'When HTML5, CSS and Bootstrap ', 500, 
 								'could not meet the dynamic requirements,', 500, 
 								'I went a step further ', 500, 
