@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Footer from './Footer'
-import MainContent from './MainContent';
 import About from './about';
 import Projects from './projects';
 import Contact from  './contact';
