@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mitchell-frost.github.io/my-website",
+  "homepage": "https://my-website-5dptq8yid-mitchell-frost.vercel.app/",
   "dependencies": {
     "-": "0.0.1",
     "@react-navigation/stack": "^5.9.3",

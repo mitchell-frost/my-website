@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Container, Row, Col, Table } from 'reactstrap';
 import './css/contact.css';
 import './loader';
