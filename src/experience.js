@@ -15,11 +15,19 @@ class Exp extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Experience</h1>
-                <h1>Skills</h1>
-                <h1>Education</h1>
-            </div>
+            <Container>
+                <div>
+                    <Row>
+                        <h1>Experience</h1>
+                    </Row>
+                    <Row>
+                        <h1>Skills</h1>
+                    </Row>
+                    <Row>
+                        <h1>Education</h1>
+                    </Row>
+                </div>
+            </Container>
         )
     }
 }
