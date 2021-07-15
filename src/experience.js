@@ -192,7 +192,7 @@ class Exp extends React.Component {
                             <Card.Body>
                                 <Card.Title>Higher Secondary</Card.Title>
                                 <Card.Text>
-                                Narayana IIT Academy (Kollur Campus)
+                                Narayana IIT Academy, Hyderabad (Kollur Campus)
                                 </Card.Text>
                             </Card.Body>
                             </Card>
