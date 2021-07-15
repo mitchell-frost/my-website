@@ -1,11 +1,11 @@
+body {
+    background-color: #001a33;
+}
+
 .yelpCamp {
     text-align: center;
     align-items: center;
 }
-
-/*html, body {
-    background-color: #000;
-}*/
 
 p {
     color: #fff;

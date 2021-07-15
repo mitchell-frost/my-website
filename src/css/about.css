@@ -1,6 +1,19 @@
 body {
     text-align: center;
     align-items: center;
+    background-color: #001a33;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
 }
 
 .fix{
@@ -8,12 +21,27 @@ body {
     bottom:0px;
 }
 
+#myPic {
+    border-radius: 50%;
+    border: 10px solid #325C74;
+}
+
+#myPic:hover {
+    border-color: rgb(216, 2, 134);
+}
+
+div.row {
+    height: 10%;
+}
+
+
 .wrapper {
     padding: 100px;
     padding-left: 250px;
     padding-right: 250px;
     height: 100%;
     width: 100%;
+    align-items: center;
 }
 p {
     font-size: 24px;
@@ -29,6 +57,16 @@ h3, h1, h2 {
     color: #fff;
 }
 
+div.row {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+div.btn {
+    align-items: center;
+    margin: auto;
+}
 .square {
     display: block;
     overflow: hidden;

@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Container, Row, Col, Table } from 'reactstrap';
 import './css/about.css';
-
-import $ from 'jquery';
 import './loader';
-import pic from './star.jpg'
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import pdf from './resume/Bhawna.pdf';
+import { Button } from 'reactstrap';
+import ReactRoundedImage from "react-rounded-image";
+import pic from "./imgs/twitter.jpg";
+import { Row } from 'reactstrap';
 
 class About extends React.Component {
 	constructor() {
@@ -18,6 +18,11 @@ class About extends React.Component {
 	render() {
 		return (
 			<div class="wrapper">
+				<div id="img">
+					<img id="myPic" src={pic} height={150} width={150} />
+				</div>
+				<br />
+				
 				<div class="square"> 
 					<div class="hey">
 					<Typical
@@ -44,6 +49,11 @@ class About extends React.Component {
 					
 					/>	
 					</p>
+
+					<div>
+						<Button color="danger"><a className="nostyle" href={pdf}>Download Resume</a></Button>
+					</div>
+					<br />
 					<Typical 
 						steps={['This is my story.', 1000]}
 						loop={1}
@@ -86,6 +96,7 @@ class About extends React.Component {
 					/> 
 					</div>
 				</div> 
+				
 			</div>
 		)		
 	}

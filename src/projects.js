@@ -16,7 +16,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import { DiGithubBadge } from 'react-icons/di';
 
 class Projects extends React.Component {
 	constructor() {
@@ -401,10 +402,10 @@ class Projects extends React.Component {
 					</Row>
 					<br /><br />
 					<div className="explore-github">
+						<a id="github" href="https://github.com/mitchell-frost" rel="noopener noreferrer" target="_blank">
 						<p>
-							Explore all my projects on <button>Github<i class="fab fa-github"></i></button>
-							<i class="fa fa-github" style={{fontSize:38, color:'lightgrey'}}></i>
-						</p>
+							Explore all my projects on <Button variant="dark">GitHub<DiGithubBadge size="2em" /></Button>
+						</p></a>
 					</div>
 					</Container>				
 			</div>

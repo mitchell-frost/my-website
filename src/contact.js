@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Row, Col, Table } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import './css/contact.css';
 import './loader';
-import pic from './imgs/pic2.PNG'
-import Typical from 'react-typical'
+import pic from './imgs/pic2.PNG';
+import Typical from 'react-typical';
 
 class Contact extends React.Component {
     constructor() {
@@ -21,12 +21,12 @@ class Contact extends React.Component {
                     <Row>   
                         <Col className="social-sidebar">
                             <div class="icon-bar">
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="github"><i class="fa fa-github"></i></a>
-                                <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+                                <a href="https://www.facebook.com/patnaik.bhawna/" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/PatnaikBhawna" class="twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/bhawna-patnaik-mitch/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/mostly._.surreal/" class="instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="https://github.com/mitchell-frost" class="github"><i class="fa fa-github"></i></a>
+                                <a href="https://wa.me/+917328033635" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
                             </div>
                         </Col>                         
                         <Col className="form-check-inline">

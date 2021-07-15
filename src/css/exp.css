@@ -1,3 +1,87 @@
+body {
+    background-color: #001a33;
+}
+
 h1 {
     color: white;
 }
+
+.btn {
+    width: fit-content;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.task {
+    color: black;
+    text-align: left;
+}
+
+h3.intern, h4.intern, p.intern {
+    color: black;
+}
+
+h1.head {
+    text-align: center;
+}
+
+p.card-text {
+  color: black;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+.container {
+  margin-bottom: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+div.col-md-4 {
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+div.row {
+  margin: auto;
+}
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width: fit-content;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+  }
+  
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+  }
+  
+  .slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 #D80286;
+  }
+  
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
