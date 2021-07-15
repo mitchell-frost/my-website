@@ -205,6 +205,7 @@ class Exp extends React.Component {
                                 <Card.Text>
                                 St. Vincent's Convent School, Balasore
                                 </Card.Text>
+                                <p className="ac">Achievements: ICSE District topper</p>
                             </Card.Body>
                             </Card>
                         </Col>

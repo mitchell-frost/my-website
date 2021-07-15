@@ -26,9 +26,9 @@ class Navbar extends Component {
             <nav class="topnav" id="myTopnav" className="navBar">
                 <ul>
                     <li><NavLink to="/about/">About</NavLink></li>
-                    <li><NavLink to="/contact/">Contact</NavLink></li>
                     <li><NavLink to="/exp/">Experience, Skills and Education</NavLink></li>
                     <li><NavLink to="/Projects/">Projects</NavLink></li>
+                    <li><NavLink to="/contact/">Contact</NavLink></li>
                     <li><NavLink to="/blog/">Blog</NavLink></li>
                     <li>&#9776;</li>
                 </ul>
