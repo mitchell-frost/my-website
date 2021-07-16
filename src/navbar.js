@@ -5,8 +5,18 @@ import './css/navbar.css';
 class Navbar extends Component {
     constructor(props) {
         super(props);
+        this.myFunction = this.myFunction.bind(this);
     }
 
+
+    myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
 
     render(){
         return(
