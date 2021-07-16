@@ -13,7 +13,6 @@ class Contact extends React.Component {
         }
     }
 
-
     render() {
         return (
             <div className="contact-div">
@@ -29,7 +28,7 @@ class Contact extends React.Component {
                                 <a href="https://github.com/mitchell-frost" class="github"><i class="fa fa-github"></i></a>
                                 <a href="https://wa.me/+917328033635" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
                             </div>
-                        </Col>                       
+                        </Col>                         
                         <Col className="form-check-inline">
                             <form>
                             <Typical
