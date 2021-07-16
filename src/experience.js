@@ -56,7 +56,7 @@ class Exp extends React.Component {
                             <h3 className="intern">Full Stack Engineer</h3>
                             <h4 className="intern">OmniPresent Robot Tech. Pvt. Ltd.</h4>
                             <p className="italic intern">Tasks/Achievements</p>
-                            <p className="task">► Implemented the whole front-end and backend for a dashboard for Mahindra.</p>
+                            <p className="task">► Implemented the whole front-end for a dashboard for Mahindra.</p>
                             <p className="task">► Designed and created the front-end for various dashboards with Flask and JInja2 templates.</p>
                             <p className="task">► Developed dashboards for JK Cement and Webel.</p>
                             <p className="task">► Working on the back-end implementation of APIs in Flask.</p>
