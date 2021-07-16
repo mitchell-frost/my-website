@@ -38,6 +38,7 @@ class Projects extends React.Component {
 				/>
 				{/*<p style={{fontSize: 10, color: 'grey'}}>Click on the specific project to see code or demo</p>*/}
 					<Row className="justify-content-md-center">
+						
 					<Col style={{margin: 20}}>
 							<Flippy // YELP CAMP
 								flipOnHover={false} // default false
@@ -367,37 +368,7 @@ class Projects extends React.Component {
 							</Flippy>
 						</Col>
 						<Col style={{margin: 20}}>
-						<Flippy
-								flipOnHover={false} // default false
-								flipOnClick={true} // default false
-								flipDirection="horizontal" // horizontal or vertical
-								ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
-								// if you pass isFlipped prop component will be controlled component.
-								// and other props, which will go to div
-								style={{ width: '300px', height: '270px' }} /// these are optional style, it is not necessary
-							>
-								<FrontSide
-								style={{
-									backgroundColor: '#00FF7F',
-									display: 'flex', 
-									justifyContent: 'center'
-								}}
-								>
-								<div class="wordcount">
-									<p class="tutor">WORD COUNTER SITE</p>
-									<img src={wordcount} alt="color game" height="160" width="240" />
-								</div>
-								
-								</FrontSide>
-								<BackSide
-								style={{ backgroundColor: '#00FF7F'}}>
-								<br /><br />
-								<Button variant="danger">CODE</Button><br /><br />
-								<p id="description">
-								A MEN stack project that has user authentication and allows to add, remove and edit campgrounds and comments.	
-								</p> 
-								</BackSide>
-							</Flippy>
+
 						</Col>
 					</Row>
 					<br /><br />

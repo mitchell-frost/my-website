@@ -40,6 +40,7 @@ body {
   
   .topnav a.active {
     background-color: #ddd;
+    margin-left: 0%;
     color: #000;
   }
   
@@ -47,6 +48,8 @@ body {
     display: none;
   }
   
+
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:active) {
       display: none;
@@ -58,6 +61,9 @@ body {
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    #cross.fa-times {
+      display: none;
     }
   }
   

@@ -144,7 +144,7 @@ class Exp extends React.Component {
                                 <Button variant="dark"><DiNodejsSmall size="2.5em" color="#68a063" />NodeJS</Button>&nbsp;
                                 <Button variant="dark"><DiReact size="2.5em" color="#61dbfb" />ReactJS</Button>&nbsp;
                                 <Button variant="dark"><DiMongodb size="2.5em" color="green" />MongoDB</Button>&nbsp;
-                                <Button variant="dark"><DiGithubBadge size="2.5em" color="#000" />Git</Button>&nbsp;
+                                <Button variant="dark"><DiGithubBadge size="2.5em" color="lightgrey" />Git</Button>&nbsp;
                                 <Button variant="dark"><DiHtml5 size="2.5em" color="red" />HTML5</Button>&nbsp;
                                 <Button variant="dark"><DiCss3 size="2.5em" color="blue" />CSS</Button>&nbsp;
                             </Row>
@@ -162,7 +162,7 @@ class Exp extends React.Component {
                             <Row>
                                 <div class="button_slide slide_right">Operating Systems</div>&nbsp;
                                 <Button variant="dark"><DiWindows size="2.5em" color="blue" />Windows</Button>&nbsp;
-                                <Button variant="dark"><DiLinux size="1.5em" color="black" /> Linux (Ubuntu and Kali)</Button>&nbsp;
+                                <Button variant="dark"><DiLinux size="1.5em" color="lightgrey" /> Linux (Ubuntu and Kali)</Button>&nbsp;
                             </Row>
                         </Col>
                         <Col md={1}></Col>

@@ -11,10 +11,16 @@ class Navbar extends Component {
 
     myFunction() {
         var x = document.getElementById("myTopnav");
+        var y = document.getElementById("ham");
+        var z = document.getElementById("cross");
         if (x.className === "topnav") {
           x.className += " responsive";
+          y.style.display = "none";
+          z.style.display = "block";
         } else {
           x.className = "topnav";
+          y.style.display = "block";
+          z.style.display = "none";
         }
       }
 
@@ -28,7 +34,9 @@ class Navbar extends Component {
                     <a><li><NavLink to="/contact/">Contact</NavLink></li></a>
                     <a><li><NavLink to="/blog/">Blog</NavLink></li></a>
                     <a href="javascript:void(0);" class="icon" onClick={()=>this.myFunction()}>
-                    <i class="fa fa-bars" color="#fff"></i></a>
+                    <i class="fa fa-bars" id="ham" color="#fff"></i>
+                    <i class="fa fa-times fa-lg" id="cross" color="#fff"></i></a>
+                    
                 </ul>
             </div>
         );
