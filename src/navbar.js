@@ -3,36 +3,24 @@ import {NavLink} from 'react-router-dom';
 import './css/navbar.css';
 
 class Navbar extends Component {
-    constructor() {
-        super()
-        this.state = {
-
-        }
-
-        this.myFunction = this.myFunction.bind(this);
+    constructor(props) {
+        super(props);
     }
 
-    myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
 
     render(){
         return(
-            <nav class="topnav" id="myTopnav" className="navBar">
+            <div className="topnav" id="myTopnav" >
                 <ul>
-                    <li><NavLink to="/about/">About</NavLink></li>
-                    <li><NavLink to="/exp/">Experience, Skills and Education</NavLink></li>
-                    <li><NavLink to="/Projects/">Projects</NavLink></li>
-                    <li><NavLink to="/contact/">Contact</NavLink></li>
-                    <li><NavLink to="/blog/">Blog</NavLink></li>
-                    <li>&#9776;</li>
+                    <a><li><NavLink to="/about/">About</NavLink></li></a>
+                    <a><li><NavLink to="/exp/">Experience, Skills and Education</NavLink></li></a>
+                    <a><li><NavLink to="/Projects/">Projects</NavLink></li></a>
+                    <a><li><NavLink to="/contact/">Contact</NavLink></li></a>
+                    <a><li><NavLink to="/blog/">Blog</NavLink></li></a>
+                    <a href="javascript:void(0);" class="icon" onClick={()=>this.myFunction()}>
+                    <i class="fa fa-bars" color="#fff"></i></a>
                 </ul>
-            </nav>
+            </div>
         );
     }
 }
