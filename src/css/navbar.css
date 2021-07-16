@@ -17,6 +17,7 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
   }
+
   .topnav {
     overflow: hidden;
     background-color: #333;
@@ -47,9 +48,15 @@ body {
   }
   
   @media screen and (max-width: 600px) {
-    .topnav a {display: none;}
-    .topnav a.icon {
+    .topnav a:not(:active) {
+      display: none;
+    }
+    .topnav a.active {
+      display: block;
       float: left;
+    }
+    .topnav a.icon {
+      float: right;
       display: block;
     }
   }
