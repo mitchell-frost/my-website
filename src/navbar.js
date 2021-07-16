@@ -20,7 +20,7 @@ class Navbar extends Component {
 
     render(){
         return(
-            <div className="topnav" id="myTopnav" >
+            <div className="topnav" id="myTopnav">
                 <ul>
                     <a><li><NavLink to="/about/">About</NavLink></li></a>
                     <a><li><NavLink to="/exp/">Experience, Skills and Education</NavLink></li></a>
