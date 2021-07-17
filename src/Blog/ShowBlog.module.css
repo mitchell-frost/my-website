@@ -52,7 +52,12 @@
 }
 
 .textfiordblue {
+    text-decoration: none;
     color: #3d5170 !important;
+}
+
+.textfiordblue:hover {
+    text-decoration: underline;
 }
 
 .grid h5 {
