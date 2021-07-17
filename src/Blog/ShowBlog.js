@@ -21,7 +21,7 @@ function ShowBlog(props, p) {
               target="_blank"
               style={{ backgroundImage: `url(${props.avtar})` }}
             >
-              Written By Mehul
+              Written By Bhawna
             </a>
           </div>
         </div>
@@ -38,8 +38,9 @@ function ShowBlog(props, p) {
             </Link>
           </h5>
 
+         
           <p className={c.cardText}>{`${ToText(
-            props.description.substring(0, 1000)
+            props.description.substring((props.description.search("<p") + 3), 1000)
           )}...`}</p>
           <br />
 
