@@ -4,6 +4,41 @@ import './css/contact.css';
 import './loader';
 import pic from './imgs/pic2.PNG';
 import Typical from 'react-typical';
+import GoogleMapReact from 'google-map-react';
+import { Icon } from '@iconify/react'
+import locationIcon from '@iconify/icons-mdi/map-marker'
+
+const location = {
+    address: 'IIIT Bhubaneshwar, India',
+    lat: 20.2947,
+    lng: 85.7434,
+  }
+
+  const Map = ({ location, zoomLevel }) => (
+    <div className="map">
+      <div className="google-map">
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: 'AIzaSyBmvnFdT0EC1O25w-_HUAyNemd0lkaTPHY' }}
+          defaultCenter={location}
+          defaultZoom={zoomLevel}
+        >
+          <LocationPin
+            lat={location.lat}
+            lng={location.lng}
+            text={location.address}
+          />
+        </GoogleMapReact>
+      </div>
+    </div>
+  )
+
+  const LocationPin = ({ text }) => (
+    <div className="pin">
+      <Icon icon={locationIcon} className="pin-icon" />
+      <p className="pin-text">{text}</p>
+    </div>
+  )
+
 
 class Contact extends React.Component {
     constructor() {
@@ -49,7 +84,9 @@ class Contact extends React.Component {
                         </Col>     
                         <Col>
                             <p style={{color: '#000', fontSize: 20}}>Find me!</p>
-                            <div id="mapid" style={{width: 300, height: 300}}></div>
+                            <div id="mapid" style={{width: 300, height: 300}}>
+                                <Map location={location} zoomLevel={17} />
+                            </div>
                         </Col>                
                     </Row>
                 </div>
@@ -58,6 +95,7 @@ class Contact extends React.Component {
 
         )
     }
+
 }
 
 export default Contact;
