@@ -4,6 +4,7 @@ import Projects from './projects';
 import Contact from  './contact';
 import Navbar from './navbar';
 import Exp from  './experience';
+import Blog from './blog';
 import './loader';
 //import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/contact" component={Contact}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/exp" component={Exp}/>
+          <Route path="/blog" component={Blog}/>
         </Switch>
       </div>
       </BrowserRouter>

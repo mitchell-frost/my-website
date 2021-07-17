@@ -4,9 +4,7 @@ import './loader';
 import Typical from 'react-typical';
 import pdf from './resume/Bhawna.pdf';
 import { Button } from 'reactstrap';
-import ReactRoundedImage from "react-rounded-image";
 import pic from "./imgs/twitter.jpg";
-import { Row } from 'reactstrap';
 
 class About extends React.Component {
 	constructor() {

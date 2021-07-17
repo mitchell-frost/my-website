@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './css/navbar.css';
 
 class Navbar extends Component {
@@ -33,10 +33,9 @@ class Navbar extends Component {
                     <a><li><NavLink to="/Projects/">Projects</NavLink></li></a>
                     <a><li><NavLink to="/contact/">Contact</NavLink></li></a>
                     <a><li><NavLink to="/blog/">Blog</NavLink></li></a>
-                    <a href="javascript:void(0);" class="icon" onClick={()=>this.myFunction()}>
-                    <i class="fa fa-bars" id="ham" color="#fff"></i>
-                    <i class="fa fa-times fa-lg" id="cross" color="#fff"></i></a>
-                    
+                    <a href="#" class="icon" onClick={()=>this.myFunction()}>
+                    <i className="fa fa-bars" id="ham" color="#fff"></i>
+                    <i className="fa fa-times fa-lg" id="cross" color="#fff"></i></a>
                 </ul>
             </div>
         );
