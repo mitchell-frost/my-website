@@ -65,7 +65,7 @@ class Contact extends React.Component {
                             </div>
                         </Col>                         
                         <Col className="form-check-inline">
-                            <form>
+                            <form action="bhawna.patnaik.professional@gmail.com" method="post" enctype="text/plain">
                             <Typical
                                 steps={['Contact Me!', 100]}
                                 loop={6}
@@ -84,9 +84,6 @@ class Contact extends React.Component {
                         </Col>     
                         <Col>
                             <p style={{color: '#000', fontSize: 20}}>Find me!</p>
-                            <div id="mapid" style={{width: 300, height: 300}}>
-                                <Map location={location} zoomLevel={17} />
-                            </div>
                         </Col>                
                     </Row>
                 </div>

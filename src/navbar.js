@@ -34,6 +34,9 @@ class Navbar extends Component {
                     <a><li><NavLink to="/contact/">Contact</NavLink></li></a>
                     <a><li><NavLink to="/blog/">Blog</NavLink></li></a>
                     <a href="#" class="icon" onClick={()=>this.myFunction()}>
+                    {/* <div id="ham">
+                        <p>Menu</p>
+                    </div> */}
                     <i className="fa fa-bars" id="ham" color="#fff"></i>
                     <i className="fa fa-times fa-lg" id="cross" color="#fff"></i></a>
                 </ul>
