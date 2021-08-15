@@ -4,7 +4,7 @@ import './loader';
 import Typical from 'react-typical';
 import pdf from './resume/Bhawna.pdf';
 import { Button } from 'reactstrap';
-import pic from "./imgs/twitter.jpg";
+import pic from "./imgs/mypic.jpeg";
 
 class About extends React.Component {
 	constructor() {
